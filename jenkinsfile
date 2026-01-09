@@ -28,7 +28,7 @@ pipeline {
 
     post {
         success {
-            echo '✅ Tests passed inside Docker container!'
+            echo '✅ Tests passed inside the Docker container!'
         }
         failure {
             echo '❌ Tests failed!'
